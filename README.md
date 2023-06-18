@@ -14,7 +14,7 @@ To play the game, follow these steps:
 1. Clone the project into local system.
 2. Open SheepdogTrials.java in your preferred IDE.
 3. Press the IDE's run button to execute the program.
-4. After entering the field setting, the field of the game will be shown. 
+4. After entering the field setting, i.e. fixed or random, the field of the game will be shown. 
 - Empty patches of grass are shown as '-'. 
 - The dog is represented by 'D' and sheep by 'S'. 
 - The pen area is represented by 'P'.
@@ -37,7 +37,7 @@ PPP----- \
 
 - A representation of the state of the game. The fixed setup is a $8 x 8$ grid with one dog, 5 sheep and a pen area of size $2 \times 3$ (or $3 \times 2$ ). No bushes.
 
-- The ability to control the dog by by entering commands on the terminal. To move the dog up, enter 'W' and press enter. Use 'S' for down, 'A' for left and 'D' for right.
+- To move the dog up, enter 'W' and press enter. Use 'S' for down, 'A' for left and 'D' for right.
 
 - Display the number of moves made by the player so far.
 
@@ -45,7 +45,7 @@ PPP----- \
 
 - Sheep is flocking when the dog is absent and reluctance to enter pen.
 
-- Sheep move away from the dog as it approaches. Dogs and sheep do not move out of bounds.
+- Sheep move away from the dog as it approaches. Dogs and sheep cannot move out of bounds.
 
 - When the game is over, display a "victory" message and offer the user to restart the game.
 
